@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato | Mizuno</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="d-flex flex-column min-vh-100 bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-2 mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/logo.png" alt="Logo Mizuno" style="max-height: 40px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-4 fs-6">
+          <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="historia.html">História</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="origem.html">Origem</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="galeria.html">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link text-dark active" aria-current="page" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container flex-grow-1 my-5">
+    <h1 class="text-center text-primary mb-4">Fale Conosco</h1>
+    <p class="text-center text-muted mb-5">Preencha o formulário abaixo para entrar em contato com nossa equipe.</p>
+    
+    <div class="row g-5">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="assunto" class="form-label">Assunto</label>
+            <input type="text" class="form-control" id="assunto" placeholder="Assunto da mensagem">
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5 class="text-primary">Nosso Endereço</h5>
+        <p class="text-muted">R. Saigiro Nakamura, 400 - Vila Industrial, São José dos Campos - SP<br>CEP: 12220-280</p>
+        <iframe class="w-10 0 rounded shadow-sm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.7229694127473!2d-45.86128102468151!3d-23.180308979063504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bc96c8e4b37%3A0x961089d48d0b5240!2sSenac%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos!5e0!3m2!1spt-BR!2sbr!4v1749700579119!5m2!1spt-BR!2sbr"
+         width="600" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white text-center text-lg-start border-top mt-5 pt-4">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-start">
+          <h5 class="text-primary fw-bold">Sobre a Mizuno</h5>
+          <p class="text-muted">
+            Este site é institucional e sem fins comerciais. Aqui você encontra informações sobre a história, origem e modelos de tênis da Mizuno.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-primary fw-bold">Páginas</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+            <li><a href="historia.html" class="text-muted text-decoration-none">História</a></li>
+            <li><a href="origem.html" class="text-muted text-decoration-none">Origem</a></li>
+            <li><a href="galeria.html" class="text-muted text-decoration-none">Galeria</a></li>
+            <li><a href="contato.html" class="text-muted text-decoration-none">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-primary fw-bold">Redes Sociais</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted text-decoration-none">Instagram</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">Facebook</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-muted py-3 border-top" style="font-size: 0.9rem;">
+      © 2025 Mizuno Institucional. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+
+      h1,
+       h5 {
+           color: #003366;
+       }
+
+       p {
+           color: #333;
+       }
+
+       #bgh {
+           background-image: url(https://images.prismic.io/sportsshoesprod/cf4dbe0d-5110-4d6e-93ad-d8817a65594b_mizuno-trail-parallax.jpg?auto=compress,format&rect=0,26,1920,747&w=1980&h=770);
+           background-size: cover;
+           background-position: center;
+           padding: 9rem;
+       }
+
+       .text-primary {
+           color: #003366 !important;
+       }
+
+       .text-muted {
+           color: #444 !important;
+       }
+
+       .card {
+           transition: transform 0.3s ease, box-shadow 0.3s ease;
+           cursor: pointer;
+       }
+
+       .card:hover {
+           transform: scale(1.05);
+           box-shadow: 0 0.75rem 1.5rem rgba(0, 51, 102, 0.3);
+           z-index: 10;
+       }
+
+       .card-custom {
+           border: none;
+           box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.05);
+           border-radius: 1rem;
+           transition: transform 0.3s ease, box-shadow 0.3s ease;
+           overflow: hidden;
+       }
+
+       .card-custom:hover {
+           transform: translateY(-5px);
+           box-shadow: 0 1rem 2rem rgba(0, 51, 102, 0.15);
+       }
+
+       .card-img-top {
+           border-radius: 1rem 1rem 0 0;
+           height: 220px;
+           object-fit: cover;
+       }
+
+       .section-title {
+           margin-bottom: 2rem;
+       }
+       
+       .image-hover {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-hover img {
+  display: block;
+  transition: opacity 0.4s ease;
+}
+
+.image-hover .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-hover-wrap:hover .img-hover {
+  opacity: 1;
+}
+
+.image-hover-wrap:hover .img-main {
+  opacity: 0;
+}
